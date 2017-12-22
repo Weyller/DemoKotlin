@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
        btnAdd.setOnClickListener {
 
            foodList.add(editFood.text.toString())
-           addedFood.c
+           addedFood = ""
            editFood.hint = "add new food here..."
            Toast.makeText(this,"Food Added", Toast.LENGTH_SHORT).show()
 
